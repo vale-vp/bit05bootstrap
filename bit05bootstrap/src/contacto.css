@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+    a {
+        text-decoration: none;
+    }
+    
+    .contenedor {
+        width: 0%;
+        max-width: 75em;
+        margin: 1.25em auto;
+        display: grid;
+        grid-gap: 1.25em;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            'header			header   	header'
+            'destacado		destacado 	destacado'
+            'contenido		contenido 	aside'
+            'footer	 		footer 		footer';
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .contenedor {
+        width: 0%;
+        max-width: 75em;
+        margin: 1.25em auto;
+        display: grid;
+        grid-gap: 1.25em;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas:
+            'header			header   	header'
+            'destacado		destacado 	destacado'
+            'contenido		contenido 	aside'
+            'footer	 		footer 		footer';
+    }
+    
+    .header .logo {
+        margin-bottom: 1.25em;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    
+    .logo h1 {
+        font-size: 1.875em;
+    }
+    
+    .menu {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu a {
+        padding: 0.625em;
+        color: #000;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        width: 100%;
+        text-align: center;
+        transition: 0.2s ease all;
+        font-size: 1em;
+    }
+    
+    .menu a:hover {
+        background: rgb(224, 10, 10);
+        color: rgb(247, 242, 242);
+    }
+body{
+	background-color: #ffffff;
+	color: #4c4c4c;
+	font-family: 'Asap', sans-serif;
+	font-size: 14px;
+}
+label, input[type="submit"]{
+	margin-top: 6px;
+}
+.btn:focus{
+	outline: none;
+}
+.ibody{
+	background-color: #ecf0f3;
+	border: 1px solid #bfd8eb;
+	border-radius: 8px;
+	margin: 30px auto;
+	width: 500px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+.jumbotron{
+	background-color: #ca0933;
+	border-radius: 8px 8px 0px 0px;
+	margin-bottom: 0px;
+	padding: 16px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+}
+.jumbotron h1{
+	color: #ffffff;
+	font-size: 36px;
+	text-align: center;
+	text-shadow: 0px 1px #fff;
+}
+.fcontacto{
+	padding: 14px;
+}
+.logito{
+	margin-bottom: 6px;
+	text-align: center;
+}
